@@ -23,7 +23,7 @@ ln -s ~/mamp/htdocs htdocs
 ```bash
 cd /Applications/MAMP/conf
 ln -s ~/mamp/mysql_conf/my.cnf my.cnf
-```bash
+```
 
 
 ### Apache conf
