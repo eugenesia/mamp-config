@@ -4,7 +4,7 @@ A way to configure MAMP and keep the settings across MAMP upgrades.
 
 ## Prerequisites
 
-1. Download and install MAMP.
+Download and install MAMP - you don't need MAMP Pro, just regular MAMP.
 
 ## Installation
 
@@ -42,8 +42,9 @@ MAMP overwrites httpd.conf each restart so we need to symlink the whole folder r
 Inside httpd.conf, make sure:
 
 ```apache
-  # Virtual hosts.
-  Include ~/mamp/apache_conf/vhosts/*.conf
+# Virtual hosts.
+# You may need to replace ~/mamp with the absolute dir name.
+Include ~/mamp/apache_conf/vhosts/*.conf
 ```
 
 
